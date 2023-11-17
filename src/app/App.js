@@ -77,7 +77,7 @@ class App extends React.Component {
 
         // Add a unique encoded type for the current date and time
         const timestamp = Date.now().toString(36);
-        result += timestamp;
+        result = result + "_" + timestamp;
 
         return result;
     }
