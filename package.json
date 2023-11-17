@@ -45,5 +45,6 @@
         "@babel/preset-env": "^7.23.3",
         "@babel/preset-react": "^7.23.3",
         "@babel/register": "^7.22.15"
-    }
+    },
+    "homepage": "https://DivijD012.github.io/Neuroeconomics-Experiment"
 }
