@@ -41,7 +41,7 @@ class App extends React.Component {
         };
     }
 
-    componentDidUpdate(prevProps, prevState) {
+    componentDidUpdate() {
         this.updateButtonsPos();
 
         setTimeout(() => {
@@ -50,8 +50,8 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        window.onorientationchange = () => this.updateButtonsPos();
-        window.onresize = () => this.updateButtonsPos();
+        window.addEventListener('orientationchange', () => this.updateButtonsPos());
+        window.addEventListener('resize', () => this.updateButtonsPos());
 
         questionsFactory(false).then(value => {
             this.setState({ questions: value }, () => {
