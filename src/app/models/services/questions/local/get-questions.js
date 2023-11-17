@@ -1,5 +1,5 @@
 import questionsData from "./data/questionsData";
-import getRandomInt from "../../../../utils/random-int";
+// import getRandomInt from "../../../../utils/random-int";
 
 export default () => {
     return new Promise(resolve => {

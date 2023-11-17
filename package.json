@@ -1,20 +1,7 @@
 {
-    "name": "material-ui-quiz-app",
+    "name": "neuroeconomics-experiment-app",
     "version": "1.0.0",
-    "keywords": [
-        "material-ui",
-        "quiz",
-        "react"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jkanchelov/material-ui-quiz-app.git"
-    },
-    "author": "jkanchelov",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/jkanchelov/material-ui-quiz-app/issues"
-    },
     "dependencies": {
         "@material-ui/core": "^4.1.3",
         "react": "^16.8.6",
