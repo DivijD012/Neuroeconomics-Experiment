@@ -14,9 +14,9 @@ class QuestionParagraph extends React.Component {
             <MuiThemeProvider theme={theme}>
                 {addCssTransition(
                     <div>
-                        <div className={classes.questionNumber}>
+                        {/* <div className={classes.questionNumber}>
                             {`Question ${this.props.questionIndex}/${this.props.questionsLength}:`}{" "}
-                        </div>
+                        </div> */}
                         <pre className={classes.questionParagraph}>{this.props.question}</pre>
                     </div>
                 )}
