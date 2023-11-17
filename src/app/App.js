@@ -223,7 +223,7 @@ class App extends React.Component {
     };
 
     isNumeric(num) {
-        return !isNaN(num)
+        return !isNaN(num) && num.trim() !== "" && num > 0;
     }
 
 
