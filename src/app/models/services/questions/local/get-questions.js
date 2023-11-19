@@ -4,7 +4,7 @@ import questionsData from "./data/questionsData";
 export default () => {
     return new Promise(resolve => {
         setTimeout(() => {
-            const questionsLength = 13;
+            const questionsLength = 17;
             const questions = [];
 
             for (let i = 0; i < questionsLength; i++) {

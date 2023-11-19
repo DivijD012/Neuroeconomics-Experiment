@@ -83,38 +83,38 @@ class App extends React.Component {
     }
 
     route(index) {
-        if (questionsData[index].correctAnswerIndex === 1) {
-            index = 12;
+        if (questionsData[index].correctAnswerIndex === 1 && index !== 3) {
+            index = 16;
         }
-        else if (index === 3) {
-            if (this.state.questionsAnswers[index] === 0)
-                index = 8;
-            else
-                index = 4;
-        }
-        else if (index === 4) {
-            if (this.state.questionsAnswers[index] === 0)
-                index = 5;
-            else
-                index = 6;
-        }
-        else if (index === 6) {
+        else if (index === 7) {
             if (this.state.questionsAnswers[index] === 0)
                 index = 12;
             else
-                index = 7;
+                index = 8;
         }
         else if (index === 8) {
             if (this.state.questionsAnswers[index] === 0)
-                index = 10;
-            else
                 index = 9;
+            else
+                index = 10;
         }
         else if (index === 10) {
             if (this.state.questionsAnswers[index] === 0)
-                index = 12;
+                index = 16;
             else
                 index = 11;
+        }
+        else if (index === 12) {
+            if (this.state.questionsAnswers[index] === 0)
+                index = 14;
+            else
+                index = 13;
+        }
+        else if (index === 14) {
+            if (this.state.questionsAnswers[index] === 0)
+                index = 16;
+            else
+                index = 15;
         }
         else {
             index += 1;

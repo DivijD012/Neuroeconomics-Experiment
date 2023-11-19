@@ -23,6 +23,49 @@ Do you consent to take part?
     },
     {
         // 3
+        question:
+`How many people (NOT including yourself) live in your home?`,
+        answers:[
+
+        ],
+        correctAnswerIndex: 1,
+    },
+    {
+        // 4
+        question:
+`Which category best describes your yearly household income before taxes? Include all income received from employment, social 
+security, support from children or other family, welfare, bank interest, retirement accounts, rental property, investments, etc.`,
+        answers:[
+            "Less than Rs. 6 Lakhs",
+            "Rs. 6 Lakhs to 9 Lakhs",
+            "Rs. 9 Lakhs to 12 Lakhs",
+            "Rs. 12 Lakhs to 15 Lakhs",
+            "More than Rs. 15 Lakhs",
+        ],
+        correctAnswerIndex: 0,
+    },
+    {
+        // 5
+        question:
+`Do you OWN your own home now (includes paying a mortgage)?`,
+        answers:[
+            "Yes",
+            "No",
+        ],
+        correctAnswerIndex: 0,
+    },
+    {
+        // 6
+        question:
+`Do you OWN a working motor vehicle (car, truck, van, SUV) now?`,
+        answers:[
+            "Yes",
+            "No",
+        ],
+        correctAnswerIndex: 0,
+    },
+    {
+        // 7
         question: `You are a final year student actively seeking placement opportunities in reputable companies.
 It's a pivotal moment and you recognize the significance of choosing a career options that aligns with your skills and interests
 so that you can continue with it without any issues in the future as well.
@@ -36,7 +79,7 @@ Which of the following two roles would you say are more suited to your passion a
         correctAnswerIndex: 0,
     },
     {
-        // 4
+        // 8
         // Passion - Research
         question: `The placement season is closing in, but you have managed to land yourself 2 placement offers in the same company. The choice is
 now yours to make. One of the offers is for the Research position, and offers a salary of 32 Lakhs per annum and the other is that
@@ -51,7 +94,7 @@ Which job would you prefer to take?
         correctAnswerIndex: 0,
     },
     {
-        // 5
+        // 9
         // Passion - Research, Choice - Research
         //Submit
         question: `
@@ -65,7 +108,7 @@ research (preferred job alignment)?
         correctAnswerIndex: 1
     },
     {
-        // 6
+        // 10
         // Passion - Research, Choice - SDE
         // Yes - Submit
         question: `
@@ -80,7 +123,7 @@ years. Will you switch your decision?
         correctAnswerIndex: 0
     },
     {
-        // 7
+        // 11
         // Passion - Research, Choice - SDE,, Switch - No
         // Submit
         question: `
@@ -94,7 +137,7 @@ what would be the maximum duration (in months) in which the pay must become equa
         correctAnswerIndex: 1
     },
     {
-        // 8
+        // 12
         // Passion - SDE
         question: `The placement season is closing in, but you have managed to land yourself 2 placement offers in the same company. The choice is
 now yours to make. One of the offers is for the SDE position, and offers a salary of 32 Lakhs per annum and the other is that
@@ -109,7 +152,7 @@ Which job would you prefer to take?
         correctAnswerIndex: 0,
     },
     {
-        // 9
+        // 13
         // Passion - SDE, Choice - SDE
         //Submit
         question: `
@@ -123,7 +166,7 @@ SDE (preferred job alignment)?
         correctAnswerIndex: 1
     },
     {
-        // 10
+        // 14
         // Passion - SDE, Choice - Research
         // Yes - Submit
         question: `
@@ -138,7 +181,7 @@ years. Will you switch your decision?
         correctAnswerIndex: 0
     },
     {
-        // 11
+        // 15
         // Passion - SDE, Choice - Research,, Switch - No
         // Submit
         question: `
@@ -152,7 +195,7 @@ over research?
         correctAnswerIndex: 1
     },
     {
-        // 12
+        // 16
         // Submission
         question: `
 Thanks for going through our experiment. Please click on the submit button to download your results.
