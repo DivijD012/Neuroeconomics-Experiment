@@ -82,7 +82,7 @@ Which of the following two roles would you say are more suited to your passion a
         // 8
         // Passion - Research
         question: `The placement season is closing in, but you have managed to land yourself 2 placement offers in the same company. The choice is
-now yours to make. One of the offers is for the Research position, and offers a salary of 32 Lakhs per annum and the other is that
+now yours to make. One of the offers is for the Research position, and offers a salary of 25 Lakhs per annum and the other is that
 of an SDE with a salary of 40 Lakhs per annum.
 
 Which job would you prefer to take?
@@ -140,7 +140,7 @@ what would be the maximum duration (in months) in which the pay must become equa
         // 12
         // Passion - SDE
         question: `The placement season is closing in, but you have managed to land yourself 2 placement offers in the same company. The choice is
-now yours to make. One of the offers is for the SDE position, and offers a salary of 32 Lakhs per annum and the other is that
+now yours to make. One of the offers is for the SDE position, and offers a salary of 25 Lakhs per annum and the other is that
 of a Research position with a salary of 40 Lakhs per annum.
 
 Which job would you prefer to take?
