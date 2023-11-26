@@ -47,7 +47,7 @@ security, support from children or other family, welfare, bank interest, retirem
     {
         // 5
         question:
-`Do you OWN your own home now (includes paying a mortgage)?`,
+`Do you (or your family) OWN your own home now (includes paying a mortgage)?`,
         answers:[
             "Yes",
             "No",
@@ -57,7 +57,7 @@ security, support from children or other family, welfare, bank interest, retirem
     {
         // 6
         question:
-`Do you OWN a working motor vehicle (car, truck, van, SUV) now?`,
+`Do you (or your family) OWN a working motor vehicle (car, truck, van, SUV) now?`,
         answers:[
             "Yes",
             "No",
