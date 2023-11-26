@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Neuroeconomics-Experiment/static/css/main.72df8cdf.chunk.css",
+    "main.js": "/Neuroeconomics-Experiment/static/js/main.f496f471.chunk.js",
+    "main.js.map": "/Neuroeconomics-Experiment/static/js/main.f496f471.chunk.js.map",
+    "runtime-main.js": "/Neuroeconomics-Experiment/static/js/runtime-main.b8de3acc.js",
+    "runtime-main.js.map": "/Neuroeconomics-Experiment/static/js/runtime-main.b8de3acc.js.map",
+    "static/js/2.fb827e7c.chunk.js": "/Neuroeconomics-Experiment/static/js/2.fb827e7c.chunk.js",
+    "static/js/2.fb827e7c.chunk.js.map": "/Neuroeconomics-Experiment/static/js/2.fb827e7c.chunk.js.map",
+    "index.html": "/Neuroeconomics-Experiment/index.html",
+    "precache-manifest.dfce76169c17d9049b8e10de084debaa.js": "/Neuroeconomics-Experiment/precache-manifest.dfce76169c17d9049b8e10de084debaa.js",
+    "service-worker.js": "/Neuroeconomics-Experiment/service-worker.js",
+    "static/css/main.72df8cdf.chunk.css.map": "/Neuroeconomics-Experiment/static/css/main.72df8cdf.chunk.css.map",
+    "static/js/2.fb827e7c.chunk.js.LICENSE.txt": "/Neuroeconomics-Experiment/static/js/2.fb827e7c.chunk.js.LICENSE.txt",
+    "static/media/failure.svg": "/Neuroeconomics-Experiment/static/media/failure.f7ea6e19.svg",
+    "static/media/success.svg": "/Neuroeconomics-Experiment/static/media/success.6e5e5bc6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8de3acc.js",
+    "static/js/2.fb827e7c.chunk.js",
+    "static/css/main.72df8cdf.chunk.css",
+    "static/js/main.f496f471.chunk.js"
+  ]
+}
